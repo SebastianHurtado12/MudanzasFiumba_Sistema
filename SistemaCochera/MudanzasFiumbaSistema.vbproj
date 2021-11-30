@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A59EAF98-2B76-44A9-9FFD-5AAFDBB836FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MudanzasFiumba.My.MyApplication</StartupObject>
+    <RootNamespace>MudanzasFiumba</RootNamespace>
+    <AssemblyName>MudanzasFiumba</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MudanzasFiumba.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MudanzasFiumba.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAlmacenes.designer.vb">
+      <DependentUpon>frmAlmacenes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlmacenes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaracteristicasPresupuesto.Designer.vb">
+      <DependentUpon>frmCaracteristicasPresupuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCaracteristicasPresupuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContratoAlmacen.designer.vb">
+      <DependentUpon>frmContratoAlmacen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmContratoAlmacen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContratoMudanzaImg.Designer.vb">
+      <DependentUpon>frmContratoMudanzaImg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmContratoMudanzaImg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContratosCliente.designer.vb">
+      <DependentUpon>frmContratosCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmContratosCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatosPresupuesto.Designer.vb">
+      <DependentUpon>frmDatosPresupuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatosPresupuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmElegirFechaContrato.Designer.vb">
+      <DependentUpon>frmElegirFechaContrato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmElegirFechaContrato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmElegirPresupContrato.Designer.vb">
+      <DependentUpon>frmElegirPresupContrato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmElegirPresupContrato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalizarMudanza.designer.vb">
+      <DependentUpon>frmFinalizarMudanza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalizarMudanza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.vb">
+      <DependentUpon>frmInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarAlmacen.designer.vb">
+      <DependentUpon>frmModificarAlmacen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarAlmacen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarCamion.designer.vb">
+      <DependentUpon>frmModificarCamion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarCamion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarCliente.designer.vb">
+      <DependentUpon>frmModificarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpciones.designer.vb">
+      <DependentUpon>frmOpciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNuevoClienteContrato.Designer.vb">
+      <DependentUpon>frmNuevoClienteContrato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNuevoClienteContrato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPresupuestoImg.Designer.vb">
+      <DependentUpon>frmPresupuestoImg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPresupuestoImg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecibo.designer.vb">
+      <DependentUpon>frmRecibo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecibo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReciboAlmacen.designer.vb">
+      <DependentUpon>frmReciboAlmacen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReciboAlmacen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeleccioneAlmacen.designer.vb">
+      <DependentUpon>frmSeleccioneAlmacen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeleccioneAlmacen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAlmacenes.resx">
+      <DependentUpon>frmAlmacenes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCaracteristicasPresupuesto.resx">
+      <DependentUpon>frmCaracteristicasPresupuesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContratoAlmacen.resx">
+      <DependentUpon>frmContratoAlmacen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContratoMudanzaImg.resx">
+      <DependentUpon>frmContratoMudanzaImg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContratosCliente.resx">
+      <DependentUpon>frmContratosCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatosPresupuesto.resx">
+      <DependentUpon>frmDatosPresupuesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmElegirFechaContrato.resx">
+      <DependentUpon>frmElegirFechaContrato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmElegirPresupContrato.resx">
+      <DependentUpon>frmElegirPresupContrato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalizarMudanza.resx">
+      <DependentUpon>frmFinalizarMudanza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarAlmacen.resx">
+      <DependentUpon>frmModificarAlmacen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarCamion.resx">
+      <DependentUpon>frmModificarCamion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarCliente.resx">
+      <DependentUpon>frmModificarCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpciones.aa-ER.resx">
+      <DependentUpon>frmOpciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpciones.resx">
+      <DependentUpon>frmOpciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoClienteContrato.resx">
+      <DependentUpon>frmNuevoClienteContrato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPresupuestoImg.resx">
+      <DependentUpon>frmPresupuestoImg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecibo.resx">
+      <DependentUpon>frmRecibo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReciboAlmacen.resx">
+      <DependentUpon>frmReciboAlmacen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeleccioneAlmacen.resx">
+      <DependentUpon>frmSeleccioneAlmacen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contrato1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reciboMudanza.png" />
+    <None Include="Resources\ContratoFiumba.png" />
+    <None Include="Resources\AvisoDeuda.PNG" />
+    <None Include="Resources\Recibo.jpg" />
+    <None Include="Resources\recibo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
